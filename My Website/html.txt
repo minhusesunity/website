@@ -1,0 +1,67 @@
+https://  en.wiki.org/       wiki/web_browser
+protocol   server address			path
+
+server > page> related files
+
+html = images, css, java
+
+shawn wildermuth
+
+more tools - web developer tool    ctrl shift I
+network tabs
+press all
+
+----------------------------------------------
+
+html uses angle bracket to explain structures
+
+<html> <head> (h1-h6> 
+<img> doesnt requires ending
+
+<strong>
+<header>
+<footer>
+<body>
+<html>
+<ul> <ol>
+<li>
+<a anchor tag>
+&copy; for copyright symbol
+
+
+<div> is division of a page
+
+-------------------------------------------------
+
+<aside> semantic tag: information about the page,. not the main content
+
+
+
+------------------------------------------
+more specific tag in csss win
+h1> body> main
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
