@@ -1,18 +1,93 @@
 <html>
-<head>eryrey
+<head>
 
 <title> This is the title</title>
-
+<link rel="stylesheet" href="site.css" /> 
 </head>
 
 
-<body>
+<body id = about>
 
    <header>
     
-    <h1>about</h1>
+   
+
+      <h1 id="siteName">Tuan Doan</h1>
+      
+      <ul id="menu">  <!--make active page looks unique -->
+        <li class="active"><a href="index.html">Home</a></li>
+        <li><a href="social.html">Social</a></li>
+        <li><a href="about.html">About me</a></li>
+        
+      </ol>
+     </header>
+
+
+
+    <h1> </h1>
+    <img id="headshot" src="img/profile.jpg" alt="profile"  width="25%">
   </main>
 
+
+
+  <aside>   <!--semantic tag: information about the page,. not the main content-->
+    
+
+    <h1> Contact me </h1>
+    <form id="contactForm">
+      <div id="formInfo"></div>
+        <!--div is to display as a block -->
+
+      <div>
+      <label for="fullName">Full name</label>  <!-- for tablet device, touch control-->
+      </div>
+
+      <div>  <!--put text for type email-->
+      <input id="fullName"  type="text"/>  <!--for tablet device, touch control-->
+      </div>
+   
+      <div>
+      <label for="email">Email</label> 
+      </div>
+
+      <div>   <!--put email for type email-->
+      <input id="email"    type="email"/> 
+      </div>
+
+
+    
+      <div>  
+      <label for="subject">Subject</label> 
+      </div>
+
+      <div>  <!--can also use subject for selecting multiple options. with OPTION tag-->
+      <select id="subject" > 
+      <option>Job offer</option>
+      <option>Complaint</option>
+      <option>Personal Message</option>
+      </select>
+      </div>
+
+
+     
+      <div>
+      <label for="message">Message</label> 
+      </div>
+
+
+    
+      <div>  <!--textarea can have row-->
+        <textarea id="msg" rows="4"></textarea>
+      </div>
+
+      <div>
+        <input type="submit" value="Send mail">
+      </div>
+
+
+    </form>
+
+  </aside>
 
 
 <footer>
@@ -20,6 +95,10 @@
   &copy; 2022 Copyright  Tuan Doan
 
 </footer>
+
+
+
+
 
 
 </body>
